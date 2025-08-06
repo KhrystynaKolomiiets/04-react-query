@@ -19,6 +19,7 @@ export default function App() {
 
   const handleSubmit = (value: string) => {
     setMovie(value);
+    setPage(1);
   };
   const handleSelect = (movie: Movie) => {
     setSelectedMovie(movie);
